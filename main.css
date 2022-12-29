@@ -41,8 +41,21 @@ header nav a:hover{
 }
 
 /* FILME PRINCIPAL */
-.principal{
+.filme-principal{
     font-size: 16px;
-    background: url(imgs\digimon-banner.jpg);
-    height: 1000px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)  100%), url(./imgs/digimon-banner.jpg); /* SOMBREAMENTO EM TODA A IMAGEM*/
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.titulo{
+    font-size: 40px;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 25px;
 }
