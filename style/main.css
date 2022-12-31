@@ -43,7 +43,8 @@ header nav a:hover{
 /* FILME PRINCIPAL */
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)  100%), url(/imgs/digimon.jpg); /* SOMBREAMENTO EM TODA A IMAGEM*/
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)  100%); /* SOMBREAMENTO EM TODA A IMAGEM*/
+    background-image: url(/img/digimon.jpg);
     height: 400px;
     background-size: cover;
     display: flex;
@@ -92,4 +93,10 @@ header nav a:hover{
 
 .filme-principal .container{
     width: 60%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
 }
